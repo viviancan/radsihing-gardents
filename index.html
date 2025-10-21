@@ -85,29 +85,48 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="pt-20 pb-12 bg-gradient-to-b from-garden-pink-soft via-white to-garden-blue-soft leaf-pattern">
+    <section id="home" class="pt-20 pb-16 bg-gradient-to-br from-garden-pink-light via-garden-blue-light to-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-            <div class="text-center space-y-8">
-                <div class="flex justify-center">
-                    <svg class="w-24 h-24 md:w-32 md:h-32 text-garden-pink opacity-80" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 22c4.97 0 9-4.03 9-9-4.97 0-9 4.03-9 9zM5.6 10.25c0 1.38 1.12 2.5 2.5 2.5.53 0 1.01-.16 1.42-.44l-.02.19c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5l-.02-.19c.4.28.89.44 1.42.44 1.38 0 2.5-1.12 2.5-2.5 0-1-.59-1.85-1.43-2.25.84-.4 1.43-1.25 1.43-2.25 0-1.38-1.12-2.5-2.5-2.5-.53 0-1.01.16-1.42.44l.02-.19C14.5 2.12 13.38 1 12 1S9.5 2.12 9.5 3.5l.02.19c-.4-.28-.89-.44-1.42-.44-1.38 0-2.5 1.12-2.5 2.5 0 1 .59 1.85 1.43 2.25-.84.4-1.43 1.25-1.43 2.25zM12 5.5c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5S9.5 9.38 9.5 8s1.12-2.5 2.5-2.5zM3 13c0 4.97 4.03 9 9 9 0-4.97-4.03-9-9-9z"/>
-                    </svg>
-                </div>
-
-                <div class="max-w-4xl mx-auto space-y-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Left: Text Content -->
+                <div class="space-y-6 md:order-1">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                         Bring Your Garden Dreams to Life
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-700 leading-relaxed">
                         Personalized garden consulting to create beautiful outdoor spaces that reflect your style and bring you joy.
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                        <a href="#contact" class="bg-garden-pink hover:bg-garden-pink/90 text-white px-10 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition">
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="#contact" class="bg-garden-pink hover:bg-garden-pink/90 text-white px-10 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transition text-center">
                             Schedule Free Consultation
                         </a>
-                        <a href="#services" class="border-2 border-garden-pink text-garden-pink hover:bg-garden-pink-soft px-10 py-4 rounded-full font-semibold text-lg transition">
+                        <a href="#services" class="border-2 border-garden-pink text-garden-pink hover:bg-garden-pink-soft px-10 py-4 rounded-full font-semibold text-lg transition text-center">
                             Explore Services
                         </a>
+                    </div>
+                </div>
+
+                <!-- Right: Visual -->
+                <div class="md:order-2">
+                    <div class="relative">
+                        <!-- Decorative background shape -->
+                        <div class="absolute inset-0 bg-gradient-to-br from-garden-pink/20 to-garden-blue/20 rounded-3xl transform rotate-3"></div>
+                        <!-- Main content area -->
+                        <div class="relative bg-white/80 backdrop-blur-sm rounded-3xl p-12 shadow-xl border-2 border-garden-pink-light">
+                            <div class="text-center space-y-6">
+                                <div class="flex justify-center">
+                                    <svg class="w-32 h-32 text-garden-pink" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 22c4.97 0 9-4.03 9-9-4.97 0-9 4.03-9 9zM5.6 10.25c0 1.38 1.12 2.5 2.5 2.5.53 0 1.01-.16 1.42-.44l-.02.19c0 1.38 1.12 2.5 2.5 2.5s2.5-1.12 2.5-2.5l-.02-.19c.4.28.89.44 1.42.44 1.38 0 2.5-1.12 2.5-2.5 0-1-.59-1.85-1.43-2.25.84-.4 1.43-1.25 1.43-2.25 0-1.38-1.12-2.5-2.5-2.5-.53 0-1.01.16-1.42.44l.02-.19C14.5 2.12 13.38 1 12 1S9.5 2.12 9.5 3.5l.02.19c-.4-.28-.89-.44-1.42-.44-1.38 0-2.5 1.12-2.5 2.5 0 1 .59 1.85 1.43 2.25-.84.4-1.43 1.25-1.43 2.25zM12 5.5c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5S9.5 9.38 9.5 8s1.12-2.5 2.5-2.5zM3 13c0 4.97 4.03 9 9 9 0-4.97-4.03-9-9-9z"/>
+                                    </svg>
+                                </div>
+                                <div class="space-y-2">
+                                    <p class="text-lg font-bold text-gray-900">✓ Free Consultation</p>
+                                    <p class="text-lg font-bold text-gray-900">✓ Custom Design Plans</p>
+                                    <p class="text-lg font-bold text-gray-900">✓ Expert Plant Selection</p>
+                                    <p class="text-lg font-bold text-gray-900">✓ Ongoing Support</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
